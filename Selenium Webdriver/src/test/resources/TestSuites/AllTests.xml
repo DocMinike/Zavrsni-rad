@@ -1,0 +1,35 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="AllTests" verbose="1">
+	<test name="LinkTests">
+		<classes>
+			<class name="com.ferit.dominikmajdandzic.LinkTests" />
+		</classes>
+	</test>
+
+	<test name="LoginTests">
+		<classes>
+			<class name="com.ferit.dominikmajdandzic.LoginTests" />
+		</classes>
+	</test>
+
+	<test name="RegisterTests">
+		<classes>
+			<class name="com.ferit.dominikmajdandzic.RegisterTests" />
+		</classes>
+	</test>
+
+	<test name="LoggedOutRiskCalculatorTests">
+		<classes>
+			<class
+				name="com.ferit.dominikmajdandzic.LoggedOutRiskCalculatorTests" />
+		</classes>
+	</test>
+
+	<test name="LoggedInRiskCalculatorTests">
+		<classes>
+			<class
+				name="com.ferit.dominikmajdandzic.LoggedInRiskCalculatorTests" />
+		</classes>
+	</test>
+</suite>
